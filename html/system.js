@@ -10,7 +10,8 @@ function check1() {
     localStorage.setItem("icon1",JSON.stringify(bloques))
     localStorage.setItem("divslab1",JSON.stringify(color))
     checks.push("iconch1")
-localStorage.setItem("iconch1",JSON.stringify(checks))
+    localStorage.setItem("iconch1",JSON.stringify(checks))
+    home();
 }
 function check2() {
     bloques.push("icon2")
@@ -18,7 +19,8 @@ function check2() {
     localStorage.setItem("icon2",JSON.stringify(bloques))
     localStorage.setItem("divslab2",JSON.stringify(color))
     checks.push("iconch2")
-localStorage.setItem("iconch2",JSON.stringify(checks))
+    localStorage.setItem("iconch2",JSON.stringify(checks))
+    home()
 }
 function check3() {
     bloques.push("icon3")
@@ -26,7 +28,8 @@ function check3() {
     localStorage.setItem("icon3",JSON.stringify(bloques))
     localStorage.setItem("divslab3",JSON.stringify(color))
     checks.push("iconch3")
-localStorage.setItem("iconch3",JSON.stringify(checks))
+    localStorage.setItem("iconch3",JSON.stringify(checks))
+    home()
 }
 function check4() {
     bloques.push("icon4")
@@ -34,7 +37,8 @@ function check4() {
     localStorage.setItem("icon4",JSON.stringify(bloques))
     localStorage.setItem("divslab4",JSON.stringify(color))
     checks.push("iconch4")
-localStorage.setItem("iconch4",JSON.stringify(checks))
+    localStorage.setItem("iconch4",JSON.stringify(checks))
+    home()
 }
 function check5() {
     bloques.push("icon5")
@@ -42,7 +46,8 @@ function check5() {
     localStorage.setItem("icon5",JSON.stringify(bloques))
     localStorage.setItem("divslab5",JSON.stringify(color))
     checks.push("iconch5")
-localStorage.setItem("iconch5",JSON.stringify(checks))
+    localStorage.setItem("iconch5",JSON.stringify(checks))
+    home()
 }
 function check6() {
     bloques.push("icon6")
@@ -50,8 +55,11 @@ function check6() {
     localStorage.setItem("icon6",JSON.stringify(bloques))
     localStorage.setItem("divslab6",JSON.stringify(color))
     checks.push("iconch6")
-localStorage.setItem("iconch6",JSON.stringify(checks))
+    localStorage.setItem("iconch6",JSON.stringify(checks))
+    home()
 }
 function simulador() {
-    document.getElementById("simulador").style.display='block'
+    //document.getElementById("simulador").style.display='block'
+    document.getElementById("simulador").classList.toggle("open");
+    document.getElementById("simulador").classList.toggle("closed");
 }

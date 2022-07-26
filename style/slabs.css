@@ -76,3 +76,12 @@ footer {
     margin: 10px;
     cursor: pointer;
 }
+
+/*Simulador*/
+.open{
+    display: block;
+}
+
+.closed{
+    display: none;
+}

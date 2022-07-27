@@ -447,7 +447,7 @@ function instructions() {
   document.getElementById("instrucciones1").style.display='none'
 }
 function cerrar() {
-  document.getElementById("instructions").style.display="none"
-  document.getElementById("body").style.background='white'
-  document.getElementById("container").style.background='white'
+  document.getElementById("instructions").style.display="none";
+  document.getElementById("body").style.background='white';
+  document.getElementById("container").style.background='white';
 }
